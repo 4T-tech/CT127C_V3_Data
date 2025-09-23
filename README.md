@@ -27,9 +27,9 @@
 
 - Image:图片
 
-- LICENSE：许可证
+- doc:文档
 
-- CT117E_M4_UM.pdf：四梯嵌入式竞赛实训平台用户手册
+- LICENSE：许可证
 
   
 
