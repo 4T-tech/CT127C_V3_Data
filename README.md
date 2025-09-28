@@ -8,7 +8,7 @@
 
 - Example_Data1：CT127C硬件平台例程
 
-- Example_Data2：wulianw1设计与开发实训指导配套例程
+- Example_Data2：物联网设计与开发实训指导配套例程
 
 - Hardware_Data：CT127C硬件平台相关硬件资料
   - CT127C硬件平台相关芯片手册
