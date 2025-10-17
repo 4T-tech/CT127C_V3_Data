@@ -1,0 +1,25 @@
+--cpu=Cortex-M4 --fpu=SoftVFP
+"demo2_1key_led\startup_stm32wle5xx.o"
+"demo2_1key_led\main.o"
+"demo2_1key_led\gpio.o"
+"demo2_1key_led\stm32wlxx_it.o"
+"demo2_1key_led\stm32wlxx_hal_msp.o"
+"demo2_1key_led\stm32wlxx_hal_rcc.o"
+"demo2_1key_led\stm32wlxx_hal_rcc_ex.o"
+"demo2_1key_led\stm32wlxx_hal_flash.o"
+"demo2_1key_led\stm32wlxx_hal_flash_ex.o"
+"demo2_1key_led\stm32wlxx_hal_gpio.o"
+"demo2_1key_led\stm32wlxx_hal_dma.o"
+"demo2_1key_led\stm32wlxx_hal_dma_ex.o"
+"demo2_1key_led\stm32wlxx_hal_pwr.o"
+"demo2_1key_led\stm32wlxx_hal_pwr_ex.o"
+"demo2_1key_led\stm32wlxx_hal_cortex.o"
+"demo2_1key_led\stm32wlxx_hal.o"
+"demo2_1key_led\stm32wlxx_hal_exti.o"
+"demo2_1key_led\stm32wlxx_hal_tim.o"
+"demo2_1key_led\stm32wlxx_hal_tim_ex.o"
+"demo2_1key_led\system_stm32wlxx.o"
+--strict --scatter "stm32wle5xx_flash.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Demo2_1KEY_LED.map" -o Demo2_1KEY_LED\Demo2_1KEY_LED.axf

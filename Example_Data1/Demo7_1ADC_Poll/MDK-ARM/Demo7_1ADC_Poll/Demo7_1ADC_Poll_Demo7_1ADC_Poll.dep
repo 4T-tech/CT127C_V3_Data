@@ -1,1305 +1,0 @@
-Dependencies for Project 'Demo7_1ADC_Poll', Target 'Demo7_1ADC_Poll': (DO NOT MODIFY !)
-CompilerVersion: 6210000::V6.21::ARMCLANG
-F (startup_stm32wle5xx.s)(0x66B1FF3D)(--target=armv7em-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 539" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32WLE5xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o demo7_1adc_poll/startup_stm32wle5xx.o)
-F (../Core/Src/main.c)(0x66B5938A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/main.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-I (..\Core\Inc\adc.hL.\Core\Inc\i2c.hc.\Core\Inc\usart.h)(0x00000000)
-I (..\Core\Inc\gpio.h..\BSP\task.hc.\BSP\oled.h)(0x00000000)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x6569B012)
-F (../Core/Src/gpio.c)(0x66B1FE5E)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/gpio.o -MD)
-I (..\Core\Inc\main.hi.\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x00000000)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Core/Src/adc.c)(0x66B1F985)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/adc.o -MD)
-I (..\Core\Inc\main.h..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x00000000)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Core/Src/i2c.c)(0x66B1FF3B)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/i2c.o -MD)
-I (..\Core\Inc\main.h..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x00000000)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Core/Src/usart.c)(0x66B1F985)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/usart.o -MD)
-I (..\Core\Inc\main.hc.\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x00000000)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Core/Src/stm32wlxx_it.c)(0x66B1FE15)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_it.o -MD)
-I (..\Core\Inc\main.hl.\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x00000000)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_it.hr.\BSP\task.h3.\Core\Inc\i2c.h)(0x00000000)
-I (..\Core\Inc\usart.hx.\BSP\oled.h)(0x00000000)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x6569B012)
-I (C:\Keil_v5\ARM\ARMCLANG\include\string.h..\Core\Inc\adc.h)(0x00000000)
-F (../Core/Src/stm32wlxx_hal_msp.c)(0x66B1F986)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_msp.o -MD)
-I (..\Core\Inc\main.hl.\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x00000000)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_adc.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_adc_ex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_adc_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_ll_adc.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_ll_adc.o -MD)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_rcc.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_rcc_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_flash.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_flash_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_gpio.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_dma.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_dma_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_pwr.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_pwr_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_cortex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_exti.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_i2c.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_i2c.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_i2c_ex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_i2c_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_tim.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_tim_ex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_tim_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_uart.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c)(0x66B03DCE)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/stm32wlxx_hal_uart_ex.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (../Core/Src/system_stm32wlxx.c)(0x66B03DCB)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/system_stm32wlxx.o -MD)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-F (..\BSP\oled.c)(0x66A529A2)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/oled.o -MD)
-I (..\Core\Inc\main.hr.\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x00000000)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-I (..\BSP\oled.hM.\BSP\font.h)(0x00000000)
-F (..\BSP\task.c)(0x66B5944A)(-xc -std=c11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O3 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc -I ../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I ../Drivers/CMSIS/Include -I ../BSP-I./RTE/_Demo7_1ADC_Poll-IC:/Keil_v5/ARM/Pack/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Pack/Keil/STM32WLxx_DFP/1.2.0/Drivers/CMSIS/Device/ST/STM32WLxx/Include-D__UVISION_VERSION="539" -D_RTE_ -DSTM32WLE5xx -D_RTE_ -DCORE_CM4 -DUSE_HAL_DRIVER -DSTM32WLE5xx-o demo7_1adc_poll/task.o -MD)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal.h)(0x66B03DCE)
-I (..\Core\Inc\stm32wlxx_hal_conf.h)(0x66B1F986)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_def.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\stm32wle5xx.h)(0x66B03DCB)
-I (..\Drivers\CMSIS\Include\core_cm4.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6569B012)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_version.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_compiler.h)(0x66B03DCE)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\cmsis_armclang.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x64F9642C)
-I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x6569B010)
-I (F:\Desktop\WLE5\Demo\Demo7_1ADC_Poll\Drivers\CMSIS\Include\mpu_armv7.h)(0x66B03DCE)
-I (..\Drivers\CMSIS\Device\ST\STM32WLxx\Include\system_stm32wlxx.h)(0x66B03DCB)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x66B03DCE)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x6569B012)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dma.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_dmamux.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_dma_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_adc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_adc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_cortex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_flash_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_gpio_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_i2c_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_pwr.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_pwr_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_rcc.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_bus.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_rcc_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_exti.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_hal_uart_ex.h)(0x66B03DCE)
-I (..\Drivers\STM32WLxx_HAL_Driver\Inc\stm32wlxx_ll_system.h)(0x66B03DCE)
-I (..\Core\Inc\i2c.hL.\Core\Inc\usart.hs.\BSP\oled.h)(0x00000000)
-I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.hB\Core\Inc\adc.h)(0x00000000)
